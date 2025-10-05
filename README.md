@@ -1,6 +1,3 @@
-<img width="1919" height="1121" alt="image" src="https://github.com/user-attachments/assets/571e52e7-28aa-47d3-bd61-41724746e8c3" />
-
-
 This Hand Gesture Recognition model combines Convulation Neural Networks with Mediapipe hand landmarks.
 We have 9 gestures at present - open palm, ok, left,right,up,down,index,fist, and one more...
 
@@ -56,3 +53,4 @@ y_out = Dense(num_classes, activation='softmax')(y_out)
 - Use model.ipynb to train the CNN and fusion network on the prepared dataset.g
 - Run livecontrol.py to use your webcam for live gesture prediction and real-time application control.
 
+<img width="1919" height="1121" alt="image" src="https://github.com/user-attachments/assets/571e52e7-28aa-47d3-bd61-41724746e8c3" />
