@@ -7,23 +7,17 @@ We have 9 gestures at present - open palm, ok, left,right,up,down,index,fist, an
 ## Project Structure
 ```
 Hand Gesture/
-│
 ├── .venv/                     # Virtual environment
-│
 ├── dataset/                   # Dataset folder (contains gesture images)
-│
 ├── .gitattributes
 ├── .gitignore
-│
 ├── dataset_creation.ipynb     # Notebook for dataset preparation
 ├── model.ipynb                # Model training and evaluation
 ├── livecontrol.py             # Real-time gesture detection and control script
-│
 ├── hand-gesture-model.keras   # Trained CNN + Landmark fusion model
 ├── hand_gestures.csv          # Gesture labels / metadata
 ├── le.pkl                     # Label encoder for gesture classes
 ├── scaler.pkl                 # Feature scaler for numerical normalization
-│
 └── README.md                  # Project documentation (this file)
 ```
 ## Model Overview
