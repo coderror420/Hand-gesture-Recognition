@@ -49,17 +49,18 @@ y_out = Dense(64, activation='relu')(y_out)
 y_out = Dense(num_classes, activation='softmax')(y_out) 
 ```
 ## Compilation & Training
-Optimizer: Adam(learning_rate=0.001)
-Batch size: 1
-Epochs: 17
-Loss function: Categorical Crossentropy
-Metrics: Accuracy
+- Optimizer: Adam(learning_rate=0.001)
+- Batch size: 1
+- Epochs: 17
+- Loss function: Categorical Crossentropy
+- Metrics: Accuracy
 
 ## workflow
-Dataset Creation:
-Run dataset_creation.ipynb to capture and label gesture images using your webcam and MediaPipe.
-Model Training:
-Use model.ipynb to train the CNN and fusion network on the prepared dataset.
-Real-Time Detection:
-Run livecontrol.py to use your webcam for live gesture prediction and real-time application control.
+- Dataset Creation:
+- Run dataset_creation.ipynb to capture and label gesture images using your webcam and MediaPipe.
+
+- **Model Training**:
+- Use model.ipynb to train the CNN and fusion network on the prepared dataset.
+- Real-Time Detection:
+- Run livecontrol.py to use your webcam for live gesture prediction and real-time application control.
 
