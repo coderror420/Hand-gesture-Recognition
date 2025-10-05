@@ -1,28 +1,28 @@
-<img width="1918" height="1082" alt="image" src="https://github.com/user-attachments/assets/3c1bd2d0-1e7e-43b9-81ec-77aa83faf9db" />
+<img width="1919" height="1121" alt="image" src="https://github.com/user-attachments/assets/571e52e7-28aa-47d3-bd61-41724746e8c3" />
+
 
 This Hand Gesture Recognition model combines Convulation Neural Networks with Mediapipe hand landmarks.
 We have 9 gestures at present - open palm, ok, left,right,up,down,index,fist, and one more...
 
 ## Project Structure
-Hand Gesture/
-│
-├── .venv/                     # Virtual environment
-│
-├── dataset/                   # Dataset folder (contains gesture images)
-│
-├── .gitattributes
-├── .gitignore
-│
-├── dataset_creation.ipynb     # Notebook for dataset preparation
-├── model.ipynb                # Model training and evaluation
-├── livecontrol.py             # Real-time gesture detection and control script
-│
-├── hand-gesture-model.keras   # Trained CNN + Landmark fusion model
-├── hand_gestures.csv          # Gesture labels / metadata
-├── le.pkl                     # Label encoder for gesture classes
-├── scaler.pkl                 # Feature scaler for numerical normalization
-│
-└── README.md                  # Project documentation (this file)
+- Hand Gesture/
+- │
+- ├── .venv/                     # Virtual environment
+- │
+- ├── dataset/                   # Dataset folder (contains gesture images)
+- │
+- ├── .gitattributes
+- ├── .gitignore
+- │
+- ├── dataset_creation.ipynb     # Notebook for dataset preparation
+- ├── model.ipynb                # Model training and evaluation
+- ├── livecontrol.py             # Real-time gesture detection and control script
+- │
+- ├── hand-gesture-model.keras   # Trained CNN + Landmark fusion model
+- ├── hand_gestures.csv          # Gesture labels / metadata
+- ├── le.pkl                     # Label encoder for gesture classes
+- ├── scaler.pkl                 # Feature scaler for numerical normalization
+- └── README.md                  # Project documentation (this file)
 
 ## Model Overview
 
