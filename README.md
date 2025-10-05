@@ -24,14 +24,14 @@ Hand Gesture/
 │
 └── README.md                  # Project documentation (this file)
 
-## 🧠 Model Overview
+## Model Overview
 
 The model uses a **hybrid deep learning approach**:
 - **CNN** extracts **visual features** from raw gesture images.
 - **MediaPipe** extracts **21-hand landmark coordinates** per frame.
 - These two feature vectors are **combined** and passed through dense layers for classification.
 
-### 🧩 CNN + ANN Architecture
+###  CNN + ANN Architecture
 ```python
 model = Sequential([
     Input(shape=input_shape),
