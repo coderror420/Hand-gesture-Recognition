@@ -1,3 +1,4 @@
+# Hand Gesture Recognition
 This Hand Gesture Recognition model combines Convulation Neural Networks with Mediapipe hand landmarks.
 We have 9 gestures at present - open palm, ok, left,right,up,down,index,fist, and one more...
 
