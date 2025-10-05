@@ -56,11 +56,7 @@ y_out = Dense(num_classes, activation='softmax')(y_out)
 - Metrics: Accuracy
 
 ## workflow
-- Dataset Creation:
 - Run dataset_creation.ipynb to capture and label gesture images using your webcam and MediaPipe.
-
-- **Model Training**:
-- Use model.ipynb to train the CNN and fusion network on the prepared dataset.
-- Real-Time Detection:
+- Use model.ipynb to train the CNN and fusion network on the prepared dataset.g
 - Run livecontrol.py to use your webcam for live gesture prediction and real-time application control.
 
